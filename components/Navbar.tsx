@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Navbar = () => {
     return(
-        <div className="flex flex-col md:flex-row justify-between items-center p-10">
+        <div className="flex flex-col md:flex-row justify-between items-center p-10 space-y-5 sm:space-y-0">
             <div>
                 <Image src={"/banklesslogo.png"} width={300} height={75} />
             </div>
