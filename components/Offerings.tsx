@@ -52,10 +52,10 @@ function Offerings() {
         },
     ]
   return (
-    <div className="bg-black flex justify-center min-h-screen py-10">
-      <div className="max-w-4xl flex flex-col items-center text-white space-y-2.5 px-5">
-        <h1 className="text-2xl font-semibold">Product Offering</h1>
-        <p className="text-lg max-w-lg">Bankless Research Report offering incorporates all components that you need to make smart decisions, including:</p>
+    <div className="bg-black flex justify-center max-h-full py-10">
+      <div className="max-w-4xl xl:max-w-6xl flex flex-col items-center text-white space-y-2.5 px-2.5">
+        <h1 className="text-2xl xl:text-4xl font-semibold">Product Offering</h1>
+        <p className="text-lg max-w-lg xl:text-2xl">Bankless Research Report offering incorporates all components that you need to make smart decisions, including:</p>
         <div className="flex max-w-4xl flex-wrap justify-center gap-4">
             {
                 offerings.map(offering => <Offering key={offering.key} icon={offering.icon} title={offering.title} description={offering.description} />)
