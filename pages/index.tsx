@@ -24,8 +24,10 @@ const Home: NextPage = () => {
         <Sponsors />
         <Solution />
         <Offerings />
-        <Join />
-        <Footer />
+        <div className=' bg-gradient-to-br from-black via-white/25 to-white/10'>
+          <Join />
+          <Footer />
+        </div>
       </main>
     </div>
   )

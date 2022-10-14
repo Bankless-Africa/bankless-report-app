@@ -2,8 +2,8 @@ import Image from "next/image"
 
 function Community() {
   return (
-    <div className="w-full relative h-screen bg-black">
-      <div className="w-full h-full flex p-5 space-x-5">
+    <div className="w-full relative h-screen bg-black flex justify-center">
+      <div className="w-full h-full flex p-5 space-x-5 max-w-8xl">
         <div className="w-full flex-1 relative">
           <Image src={"/meta.png"} layout="fill" />
         </div>
@@ -14,15 +14,15 @@ function Community() {
             <div className="flex">
               <div className="border-2 border-red-700 rounded-lg rounded-b-none border-b-0 p-2.5 text-center">
                 <h2 className="text-5xl font-semibold">1.2k</h2>
-                <p className="text-xs xl:text-lg">Lorem ipsum </p>
+                <p className="text-base">Lorem ipsum </p>
               </div>
               <div className="border-2 border-red-700 rounded-b-none border-l-0 p-2.5 border-t-0 border-r-0 -ml-0.5 text-center">
                 <h1 className="text-5xl font-semibold">1.2k</h1>
-                <p className="text-xs xl:text-lg">Lorem ipsum </p>
+                <p className="text-base">Lorem ipsum </p>
               </div>
               <div className="border-2 border-red-700 rounded-lg rounded-b-none border-b-0 p-2.5 -ml-0.5 text-center">
                 <h1 className="text-5xl font-semibold">1.2k</h1>
-                <p className="text-xs xl:text-lg">Lorem ipsum </p>
+                <p className="text-base">Lorem ipsum </p>
               </div>
             </div>
           </div>
