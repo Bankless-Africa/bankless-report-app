@@ -3,10 +3,11 @@ import Divider from "./Divider"
 interface Props {
     index: number,
     title: string,
-    description: string
+    description: string,
+    total: number
 }
 
-function SolutionItem({ index, title, description }: Props) {
+function SolutionItem({ index, title, description, total }: Props) {
   return (
     <div className="flex space-x-2.5">
         <div>
@@ -15,7 +16,7 @@ function SolutionItem({ index, title, description }: Props) {
         <div className="space-y-2">
             <h1 className="text-xl font-semibold">{title}</h1>
             <p className="text-base">{description}</p>
-            <Divider />
+            { index + 1 != total && <Divider /> }
         </div>
     </div>
   )

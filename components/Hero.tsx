@@ -7,7 +7,7 @@ const Hero = () => {
                 <Navbar />
                 <div className="flex flex-col justify-center items-center h-full w-full py-4">
                     <div className="max-w-5xl w-full text-center space-y-4 flex flex-col justify-center items-center">
-                        <h1 className="text-4xl sm:text-8xl font-bold">Bankless <span className="text-red-700">Research</span> Reports</h1>
+                        <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold">Bankless <span className="text-red-700">Research</span> Reports</h1>
                         <div className="max-w-3xl">
                             <p className="text-lg sm:text-2xl">The highest quality Research Content in Web3 that helps you cut through the noise and make smart decisions!”</p>
                         </div>

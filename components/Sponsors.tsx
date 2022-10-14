@@ -25,9 +25,12 @@ function Sponsors() {
     ]
   return (
     <div className="min-h-full flex justify-center bg-white/50">
-      <div className="max-w-4xl xl:max-w-6xl flex py-10">
+      <div className="max-w-xl lg:max-w-4xl xl:max-w-6xl w-full flex py-5 overflow-x-scroll scrollbar-hide justify-between">
         {
-            sponsors.map(sponsor => <Image key={sponsor.key} src={sponsor.image} width={250} height={200} />)
+            sponsors.map(sponsor => <div className="relative min-w-[200px] h-[200px]">
+              <Image key={sponsor.key} src={sponsor.image} layout="fill" />
+            </div>
+          )
         }
       </div>
     </div>

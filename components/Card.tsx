@@ -22,12 +22,12 @@ function Card({ icon, title, description, url }: Props) {
             </div>
             <div className="card-body !px-8 !py-2.5">
                 <h3 className="card-title !text-2xl">{title}</h3>
-                <p className="!text-xl text-start">{description}</p>
+                <p className="!text-lg md:!text-xl text-start">{description}</p>
             </div>
             <Link href={url}>
                 <a>
                     <div className="flex items-center px-8 py-2.5 space-x-1 text-red-700">
-                        <h4 className="text-xl xl:font-semibold h-6">See more</h4>
+                        <h4 className="!text-lg md:!text-xl xl:font-semibold h-6">See more</h4>
                         <ArrowRightIcon className="w-6 h-6" />
                     </div>
                 </a>
