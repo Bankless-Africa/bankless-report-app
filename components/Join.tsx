@@ -1,6 +1,6 @@
 function Join() {
   return (
-    <div className="max-h-full text-white flex justify-center">
+    <div className="max-h-full text-white flex justify-center bg-black">
         <div className="max-w-4xl flex flex-col items-center justify-center space-y-2.5 xl:space-y-5 py-20 px-5 text-center">
             <h3 className="text-2xl md:text-4xl font-bold max-w-3xl">Join Bankless Research Community</h3>
             <p className="text-lg md:text-2xl max-w-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus amet, non massa ultricies amet.</p>
